@@ -55,7 +55,25 @@ cd ollama-local-chatbot
 
 ---
 
-### 3. Install Python Requirements
+### 3. Create and Activate a Virtual Environment (Recommended)
+
+#### On **Windows**:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### On **macOS/Linux**:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 4. Install Python Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -63,7 +81,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Run the Flask App
+### 5. Run the Flask App
 
 ```bash
 python app.py
@@ -111,3 +129,9 @@ ollama-local-chatbot/
 **Assistant:**
 
 > "Lift heavy weights, focus on compound exercises. Eat protein-rich food."
+
+---
+
+## ✅ You're All Set!
+
+Enjoy your lightweight, privacy-friendly **local AI assistant** — completely running on your machine. 🎉
